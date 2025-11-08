@@ -28,7 +28,6 @@
 </head>
 
 <body>
-  <!-- 🔹 NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a class="navbar-brand fw-bold" href="/">EduFun</a>
@@ -47,12 +46,10 @@
     </div>
   </nav>
 
-  <!-- 🔹 MAIN CONTENT -->
   <main class="container my-4">
     @yield('content')
   </main>
 
-  <!-- 🔹 SIMPLE FOOTER -->
   <footer>
     © EduFun 2025 | Web Programming | <strong>Michael Antonius</strong> | <strong>2702296110</strong>
   </footer>
